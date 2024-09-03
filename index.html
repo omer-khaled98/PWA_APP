@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="./icon512_rounded.png"
+      sizes="512x512"
+      type="image/png"
+    />
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">about</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+          <h1>Welcome to My Website</h1>
+          <p class="lead">
+            Explore our products and services that make life easier
+          </p>
+          <a href="#features" class="btn btn-light btn-lg mt-3">Learn More</a>
+        </div>
+      </header>
+      <section id="features" class="py-5">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-lg-4 mb-4">
+              <div class="card border-0 shadow">
+                <div class="card-body">
+                  <h3 class="card-title">Feature One</h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nullam scelerisque urna at libero fermentum, non vehicula
+                    elit consequat.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="card border-0 shadow">
+                <div class="card-body">
+                  <h3 class="card-title">Feature Two</h3>
+                  <p class="card-text">
+                    Sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="card border-0 shadow">
+                <div class="card-body">
+                  <h3 class="card-title">Feature Three</h3>
+                  <p class="card-text">
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="bg-light py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <h2>About Us</h2>
+              <p>
+                We are a company dedicated to providing the best services and
+                products to our customers. Our team is passionate about
+                innovation and excellence, and we strive to exceed our
+                customers' expectations every day.
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <img
+                src="https://via.placeholder.com/500"
+                alt="About Us"
+                class="img-fluid rounded"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+              <h2>Contact Us</h2>
+              <p class="lead">Have questions? We're here to help!</p>
+              <form>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Your Name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Your Email"
+                  />
+                </div>
+                <div class="mb-3">
+                  <textarea
+                    class="form-control"
+                    rows="4"
+                    placeholder="Your Message"
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2024 MyWebsite. All rights reserved.</p>
+      </footer>
+    </main>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
